@@ -1,0 +1,7 @@
+default['apache9']['java_pkg'] = 'java-1.8.0-openjdk-devel'
+default['apache9']['tomcat_user'] = 'tomcat'
+default['apache9']['tomcat_homedir'] = '/opt/tomcat'
+default['apache9']['tomcatdir'] = '/opt/tomcat/apache-tomcat-9.0.13'
+default['apache9']['apache9_url'] = 'https://archive.apache.org/dist/tomcat/tomcat-9/v9.0.13/bin/apache-tomcat-9.0.13.tar.gz'
+default['apache9']['tomcat_servicepath'] = '/etc/systemd/system/tomcat.service'
+default['apache9']['openmrs_source_path'] = 'http://ftp-chi.osuosl.org/pub/jenkins/war/2.156/jenkins.war'
